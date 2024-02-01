@@ -43,11 +43,11 @@ export const HiddenMenu = ({ isOpen, onClose }) => {
                 <FormattedMessage id="navLink_3" />
               </NavLinkStyles>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <LoginLink to="login" onClick={onClose}>
                 <FormattedMessage id="authLink_1" />
               </LoginLink>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <MainBtn
                 title={<FormattedMessage id="auth_MainBtn" />}

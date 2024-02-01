@@ -9,7 +9,8 @@ export const NavLinkStyles = styled(NavLink)`
   transition: color var(--anim);
 
   &.active {
-    color: var(--white);
+    /* color: var(--white); */
+    color: var(--primary-pink);
   }
 
   &:hover {

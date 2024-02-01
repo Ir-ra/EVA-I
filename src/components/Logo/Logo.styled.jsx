@@ -1,9 +1,14 @@
 import styled from "styled-components";
 
 export const LogoImg = styled.img`
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   margin-right: 16px;
+
+  @media (min-width: 768px) {
+    width: 80px;
+    height: 80px;
+  }
 `;
 
 export const LogoWrapp = styled.div`
@@ -20,5 +25,5 @@ export const LogoName = styled.span`
 `;
 
 export const LogoBox = styled.div`
-  padding: 8px 0px;
+  padding: 0;
 `;

@@ -28,13 +28,10 @@ export const Footer = () => {
               <InfoContainer>
                 <LegalList>
                   <li>
-                    <ToTopLink to="/registration">
+                    <ToTopLink to="/">
                       <FormattedMessage id="footer_download" />
                     </ToTopLink>
                   </li>
-                  {/* <li>
-                  <a href="#license">License</a>
-                </li> */}
                 </LegalList>
 
                 <LegalList>
@@ -53,15 +50,6 @@ export const Footer = () => {
                       <FormattedMessage id="footer_pricing" />
                     </ToTopLink>
                   </li>
-                  {/* <li>
-                  <a href="#news">News</a>
-                </li>
-                <li>
-                  <a href="#help">Help</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact</a>
-                </li> */}
                 </LegalList>
               </InfoContainer>
             </div>
@@ -72,12 +60,12 @@ export const Footer = () => {
               </StoreTitle>
               <ul>
                 <StoreButtons>
-                  <a href="/google" target="_blank">
+                  <a href="#" target="_blank">
                     <StoreImg src={Google_Play} alt="Google Play button" />
                   </a>
                 </StoreButtons>
                 <StoreButtons>
-                  <a href="/apple" target="_blank">
+                  <a href="#" target="_blank">
                     <StoreImg src={App_Store} alt="Apple store button" />
                   </a>
                 </StoreButtons>

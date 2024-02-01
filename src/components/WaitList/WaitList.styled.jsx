@@ -3,8 +3,8 @@ import { Form, Field } from "formik";
 
 export const LogoContainer = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: start;
   padding: 32px 20px 16px;
 
   @media (min-width: 768px) {
@@ -28,10 +28,14 @@ export const Topper = styled.div`
 
   @media (min-width: 768px) and (max-width: 1024px) {
     flex-direction: column;
+    align-items: center;
+  justify-content: center;
   }
 
   @media (min-width: 1024px) and (max-width: 1440px) {
     flex-direction: row;
+    align-items: center;
+  justify-content: center;
   }
 
   @media (min-width: 1440px) and (max-width: 1920px) {

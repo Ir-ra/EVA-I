@@ -66,6 +66,7 @@ function App() {
             <Route path="examples" element={<Examples />} />
             <Route path="pricing" element={<Pricing />} />
           </Route>
+          
           <Route
             path="login"
             element={

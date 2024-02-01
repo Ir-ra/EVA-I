@@ -18,12 +18,13 @@ import {
   Topper,
   WaitListStyles,
 } from "./WaitList.styled";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Logo } from "../Logo/Logo";
 import { Link } from "react-router-dom";
 import { waitList } from "../../redux/auth/operations";
 import { useDispatch } from "react-redux";
 import { FormattedMessage, useIntl } from "react-intl";
+import { GoBackBtn } from "../GoBackBtn/GoBackBtn";
 
 export const WaitList = () => {
   const [nameFocused, setNameFocused] = useState(false);
@@ -36,6 +37,10 @@ export const WaitList = () => {
 
   const intl = useIntl();
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       {!isJoined ? (
@@ -46,8 +51,9 @@ export const WaitList = () => {
 
           <WaitListStyles className="container">
             <Topper>
-              <SectionTitle title={<FormattedMessage id="waitList_join_the" />} />
-              <TitleSpan>&nbsp;<FormattedMessage id="waitList_list" /></TitleSpan>
+              <TitleSpan>
+                <FormattedMessage id="waitList_list" />
+              </TitleSpan>
             </Topper>
 
             <p>
@@ -201,7 +207,7 @@ export const WaitList = () => {
 
                   <Box>
                     <Label htmlFor="socialLink">
-                    <FormattedMessage id="waitList_social_link" /> 
+                      <FormattedMessage id="waitList_social_link" />
                       (<FormattedMessage id="waitList_optional" />)
                     </Label>
                     <FieldForm
@@ -228,11 +234,15 @@ export const WaitList = () => {
                       </Notification>
                     ) : null}
                   </Box>
+
                   <Bottom>
                     <AuthBtn title={<FormattedMessage id="waitList_join" />} handleSubmit={handleSubmit} />
+
+                    <GoBackBtn />
+
                     <PolicyText>
                       <span>
-                      <FormattedMessage id="register_by_clicking" />&nbsp;{" "}
+                        <FormattedMessage id="register_by_clicking" />&nbsp;{" "}
                       </span>
                       <a
                         href="https://reply.io/terms-of-service/"
@@ -263,7 +273,7 @@ export const WaitList = () => {
           <CongratsStyles>
             <SectionTitle title={<FormattedMessage id="waitList_congrats" />} />
             <Subtitle>
-            <FormattedMessage id="waitList_success_added" />
+              <FormattedMessage id="waitList_success_added" />
             </Subtitle>
 
             <Link to="/">

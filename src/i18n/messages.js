@@ -2,7 +2,7 @@ import { LOCALES } from "./locales";
 
 export const messages = {
   [LOCALES.ENGLISH]: {
-    tryForFree_button: "Try for free",
+    tryForFree_button: "Join",
 
     // #region usage
     //usage
@@ -150,7 +150,7 @@ export const messages = {
     // #region waitList
     //waitList
     waitList_join_the: "Join the",
-    waitList_list: "waiting list for EVA-I",
+    waitList_list: "Join the waiting list for EVA-I",
     waitList_subtext:
       "Leave your email and we will inform you as soon as EVA-I is ready to try",
     waitList_name_required: "Name is required",
@@ -175,14 +175,14 @@ export const messages = {
     navLink_2: "How it works",
     navLink_3: "Pricing",
     authLink_1: "Login",
-    auth_MainBtn: "Try for free",
+    auth_MainBtn: "Join",
 
     // Hero
     hero_title_1: "Your",
     hero_subtitle: "AI Companion ",
     hero_title_2: "for Business",
     hero_span: "Success",
-    hero_MainBtn: "Try for free",
+    hero_MainBtn: "Join",
 
     // Advantages
     advantage_title_span: "Supercharge",
@@ -208,7 +208,7 @@ export const messages = {
     Benefits_CardInfoTitle_3: "Master Your Chatbot's Performance",
     Benefits_CardInfoText_3:
       "You wield full authority over training, knowledge base, persona, and user experience, crafting a customized chatbot solution that's uniquely yours.",
-    Benefits_MainBtn: "Try for free",
+    Benefits_MainBtn: "Join",
 
     // Reviews
     reviews_title: "What they say about EVA-I?",
@@ -239,7 +239,7 @@ export const messages = {
     // #endregion
   },
   [LOCALES.UKRANIAN]: {
-    tryForFree_button: "Спробувати",
+    tryForFree_button: "Приєднатись",
 
     // #region usage
     //usage
@@ -387,7 +387,7 @@ export const messages = {
     // #region waitList
     //waitList
     waitList_join_the: "Приєднуйтесь до",
-    waitList_list: "списку очікування на EVA-I",
+    waitList_list: "Приєднуйтесь до списку очікування на EVA-I",
     waitList_subtext:
       "Залиште свою електронну адресу, і ми повідомимо вам, як тільки EVA-I буде готова до випробувань",
     waitList_name_required: "Необхідно вказати ім'я",
@@ -397,7 +397,7 @@ export const messages = {
     waitList_name_surname: "Ім’я та Прізвище",
     waitList_phone_number: "Номер телефону",
     waitList_social_link: "Посилання на соціальні мережі",
-    waitList_social_link_URL: "Social Link/URL",
+    waitList_social_link_URL: "Посилання на соціальні мережі",
     waitList_optional: "опціонально",
     waitList_join: "Приєднатися",
     waitList_congrats: "Вітаємо!",
@@ -411,14 +411,14 @@ export const messages = {
     navLink_2: "Як це працює",
     navLink_3: "Ціни",
     authLink_1: "Увійти",
-    auth_MainBtn: "Спробувати",
+    auth_MainBtn: "Приєднатись",
 
     // Hero
     hero_title_1: "Ваш",
     hero_subtitle: "AI-помічник ",
     hero_title_2: "для успіху в",
     hero_span: "бізнесі",
-    hero_MainBtn: "Спробувати",
+    hero_MainBtn: "Приєднатись",
 
     // Advantages
     advantage_title_span: "Зарядіть",
@@ -444,7 +444,7 @@ export const messages = {
     Benefits_CardInfoTitle_3: "Підвищіть продуктивність чат-бота",
     Benefits_CardInfoText_3:
       "Ви керуєте навчанням, базою знань, особистістю бота та досвідом користувача, розробляючи індивідуальне рішення для чат-бота, яке є виключно вашим.",
-    Benefits_MainBtn: "Спробувати",
+    Benefits_MainBtn: "Приєднатись",
 
     // Reviews
     reviews_title: "Що кажуть про EVA-I?",

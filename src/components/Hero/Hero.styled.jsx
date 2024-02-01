@@ -33,7 +33,7 @@ export const HeroStyles = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 60px 0px 140px;
+  padding: 60px 0px 60px;
 
   ${tabletPortrait}
 `;
