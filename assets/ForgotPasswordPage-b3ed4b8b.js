@@ -1,4 +1,4 @@
-import{s as i,f as v,r as a,u as b,j as e,i as F,F as t,z as _}from"./index-d1972e5b.js";import{S as c}from"./SectionTitle-c39f0279.js";import{F as w,a as y,u as S,b as P,L,E as k,A as E}from"./AuthBtn-fc23ee52.js";const z=i.div`
+import{s as i,f as v,r as a,u as b,j as e,i as F,F as t,z as _}from"./index-133a1fbe.js";import{S as c}from"./SectionTitle-be404a36.js";import{F as w,a as y,u as S,b as P,L,E as k,A as E}from"./AuthBtn-3c1089ed.js";const z=i.div`
   margin-top: 40px;
   margin-left: 80px;
 `,d=i.div`
